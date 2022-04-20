@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS30 - CSS VARIABLES</title>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <h2>
+      Update CSS Variables with
+      <h1 class="h1">JavaScript</h1>
+    </h2>
+    <div class="controls">
+      <label for="fontSize">fontSize:</label>
+      <input
+        type="range"
+        name="fontSize"
+        min="10"
+        max="50"
+        value="30"
+        data-sizing="px"
+      />
+      <label for="spacing">Spacing:</label>
+      <input
+        type="range"
+        name="spacing"
+        min="10"
+        max="200"
+        value="10"
+        data-sizing="px"
+      />
+      <label for="blur">Blur:</label>
+      <input
+        type="range"
+        name="blur"
+        min="0"
+        max="25"
+        value="10"
+        data-sizing="px"
+      />
+      <label for="base">Base:</label>
+      <input type="color" name="base" value="#ffe86f" />
+    </div>
+    <img src="http://unsplash.it/800/500?image=312" alt="" />
+  </body>
+  <script src="scripts/index.js"></script>
+</html>

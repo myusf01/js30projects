@@ -1,0 +1,30 @@
+:root {
+  --base: #ffe86f;
+  --spacing: 10px;
+  --blur: 10px;
+  --fontSize: 30px;
+}
+body {
+  text-align: center;
+  background: #012268;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  font-size: var(--fontSize);
+}
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  max-width: 800px;
+}
+input {
+  width: 100px;
+}
+.h1 {
+  color: var(--base);
+}
+.controls {
+  margin-bottom: 50px;
+}
