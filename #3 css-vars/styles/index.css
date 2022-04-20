@@ -1,12 +1,13 @@
 :root {
-  --base: #ffe86f;
+  --base: #e0aa13;
   --spacing: 10px;
   --blur: 10px;
   --fontSize: 30px;
 }
 body {
   text-align: center;
-  background: #012268;
+  margin: 10px;
+  background: #275fd6;
   color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -17,7 +18,7 @@ img {
   padding: var(--spacing);
   background: var(--base);
   filter: blur(var(--blur));
-  max-width: 800px;
+  width: 100%;
 }
 input {
   width: 100px;
@@ -27,4 +28,9 @@ input {
 }
 .controls {
   margin-bottom: 50px;
+}
+.image {
+  max-width: 800px;
+  height: auto;
+  margin: auto;
 }
